@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineX</title>
+    <link rel="icon" href="assets/logo/cineX.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <script src="js/script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <a href="#">
+            <img class="header-logo" src="assets/logo/cineX.png" alt="CineX" />
+          </a>
+        </div>
+
+        <div class="header-nav-text-glow">
+          <div>
+            <a class="header-text text-purple glow-purple" href="#"
+              >Thuê phim</a
+            >
+            <img
+              class="header-nav-glow-icon-purple"
+              src="assets/icons/sentiment.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="header-buttons">
+          <div>
+            <button class="header-nav-button-language">
+              <a href="#"
+                ><img
+                  class="header-nav-button-language-icon"
+                  src="assets/icons/language.png"
+                  alt=""
+                />Tiếng Việt</a
+              >
+            </button>
+          </div>
+          <button class="header-nav-button-login">
+            <a href="#">Đăng nhập</a>
+          </button>
+        </div>
+      </nav>
+      <div class="header-nav-line"></div>
+    </header>
+
+    <main>
+      <section class="hero-banner">
+        <img
+          class="hero-banner-image"
+          src="assets/background/Poster.png"
+          alt="Movie posters background"
+        />
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Phim, series không giới hạn và nhiều nội dung khác
+          </h1>
+          <p class="hero-description">Chỉ từ 159.000 VND</p>
+          <p class="hero-signup">
+            Nhập email để tạo hoặc kích hoạt lại tư cách thành viên
+          </p>
+          <form class="hero-form">
+            <input type="email" class="hero-input" placeholder="Email" />
+            <button type="button" class="btn-start">BẮT ĐẦU</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="trending-movies">
+        <h2 class="trending-movies-title">PHIM ĐANG THỊNH HÀNH</h2>
+        <div class="movie-carousel">
+          <div class="movie-item">
+            <div class="movie-poster">
+              <img src="assets/movies/movie1.png" alt="Squid Game" />
+            </div>
+            <div class="movie-info">
+              <div class="movie-title-vn">TRÒ CHƠI CON MỰC</div>
+            </div>
+          </div>
+          <div class="movie-item">
+            <div class="movie-poster">
+              <img src="assets/movies/movie2.png" alt="Phim hay vn" />
+            </div>
+            <div class="movie-info">
+              <div class="movie-title-vn">SIÊU LỪA GẶP SIÊU LẦY</div>
+            </div>
+          </div>
+          <div class="movie-item">
+            <div class="movie-poster">
+              <img src="assets/movies/venom 1.png" alt="Venom" />
+            </div>
+            <div class="movie-info">
+              <div class="movie-title-vn">VENOM</div>
+            </div>
+          </div>
+          <div class="movie-item">
+            <div class="movie-poster">
+              <img src="assets/movies/mai 1.png" alt="Mai" />
+            </div>
+            <div class="movie-info">
+              <div class="movie-title-vn">MAI</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <h2 class="features-title">Lý do để chọn CineX</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-content">
+              <h3>Thưởng thức trên TV của bạn</h3>
+              <p>
+                Xem trên TV thông minh, Playstation, Xbox, Chromecast, Apple TV
+                và nhiều thiết bị khác.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-content">
+              <h3>Tải xuống để xem ngoại tuyến</h3>
+              <p>Lưu lại nội dung yêu thích và luôn có phim để xem.</p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-content">
+              <h3>Xem ở mọi nơi</h3>
+              <p>
+                Phát phim và series trên điện thoại, máy tính bảng, laptop và
+                TV.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-content">
+              <h3>Hồ sơ cho trẻ em</h3>
+              <p>Cho trẻ em không gian riêng với nội dung phù hợp.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="plan-card">
+        <h2>Gói xem phim tại <span>CineX</span></h2>
+        <div class="plan-container">
+          <div class="plan-item">
+            <div class="plan-content">
+              <div class="plan-header">
+                <h3>Family</h3>
+              </div>
+              <div class="plan-details">
+                <h4>Thiết bị</h4>
+                <ul>
+                  <li>6 thiết bị đăng nhập</li>
+                  <li>4 thiết bị xem cùng lúc</li>
+                </ul>
+                <h4>Chất lượng</h4>
+                <ul>
+                  <li>4K + HDR</li>
+                  <li>Âm thanh vòm 3D</li>
+                  <li>Dolby Almos AUDIO</li>
+                </ul>
+                <h4>Kho phim</h4>
+                <ul>
+                  <li>Tất cả phim trên CineX</li>
+                </ul>
+                <button class="plan-button">159.000</button>
+              </div>
+            </div>
+          </div>
+          <div class="plan-item">
+            <div class="plan-content">
+              <div class="plan-header">
+                <h3>Family</h3>
+              </div>
+              <div class="plan-details">
+                <h4>Thiết bị</h4>
+                <ul>
+                  <li>6 thiết bị đăng nhập</li>
+                  <li>4 thiết bị xem cùng lúc</li>
+                </ul>
+                <h4>Chất lượng</h4>
+                <ul>
+                  <li>4K + HDR</li>
+                  <li>Âm thanh vòm 3D</li>
+                  <li>Dolby Almos AUDIO</li>
+                </ul>
+                <h4>Kho phim</h4>
+                <ul>
+                  <li>Tất cả phim trên CineX</li>
+                </ul>
+                <button class="plan-button">159.000</button>
+              </div>
+            </div>
+          </div>
+          <div class="plan-item">
+            <div class="plan-content">
+              <div class="plan-header">
+                <h3>Family</h3>
+              </div>
+              <div class="plan-details">
+                <h4>Thiết bị</h4>
+                <ul>
+                  <li>6 thiết bị đăng nhập</li>
+                  <li>4 thiết bị xem cùng lúc</li>
+                </ul>
+                <h4>Chất lượng</h4>
+                <ul>
+                  <li>4K + HDR</li>
+                  <li>Âm thanh vòm 3D</li>
+                  <li>Dolby Almos AUDIO</li>
+                </ul>
+                <h4>Kho phim</h4>
+                <ul>
+                  <li>Tất cả phim trên CineX</li>
+                </ul>
+                <button class="plan-button">159.000</button>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq">
+        <h2 class="faq-title">Câu hỏi thường gặp</h2>
+        <div class="faq-container">
+          <div class="faq-item">
+            <button class="faq-question">
+              CineX là gì và làm thế nào để xem?
+            </button>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Tôi có thể xem ở đâu?</button>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Tôi có thể xem gì trên CineX?</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <div class="footer-logo">
+            <img
+              src="assets/logo/cineX.png"
+              alt="Logo"
+              class="logo-image-footer"
+            />
+          </div>
+          <div class="company-details">
+            <p>
+              CineX là dịch vụ được cung cấp bởi Công ty Cổ Phần CineX, thành
+              viên của Công ty Cổ Phần Giải trí CINEMAX.
+            </p>
+            <p>
+              Địa chỉ: Tòa The Nexus tại 3A - 3B Tôn Đức Thắng, Bến Nghé, Quận
+              1, Hồ Chí Minh 700000, Việt Nam.
+            </p>
+            <p>Mã số doanh nghiệp: 0000000001.</p>
+            <p>Ngày cấp mã số doanh nghiệp: 01/03/2025.</p>
+            <p>Nơi cấp: Sở kế hoạch và đầu tư thành phố Hồ Chí Minh.</p>
+            <div class="certification">
+              <img src="assets/icons/BoCongThuong.png" alt="Bộ Công Thương" />
+              <img src="assets/icons/dmca.png" alt="DMCA Protected" />
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <div class="footer-top-links">
+            <div class="footer-section">
+              <h4>Giới thiệu</h4>
+              <a href="#">About us</a>
+            </div>
+
+            <div class="footer-section">
+              <h4>Hỗ trợ</h4>
+              <a href="#">Điều khoản sử dụng</a>
+              <a href="#">Chính sách bảo mật</a>
+            </div>
+          </div>
+
+          <div class="footer-bottom-contact">
+            <h4>Liên hệ với chúng tôi</h4>
+            <div class="social-icons">
+              <a href="#" class="social-icon"
+                ><img src="assets/icons/facebook.png" alt="Facebook"
+              /></a>
+              <a href="#" class="social-icon"
+                ><img src="assets/icons/instagram.png" alt="Instagram"
+              /></a>
+              <a href="#" class="social-icon"
+                ><img src="assets/icons/youtube.png" alt="YouTube"
+              /></a>
+            </div>
+            <div class="contact-info">
+              <a href="tel:0378229818" class="contact-item"
+                ><img src="assets/icons/phone.png" alt="Phone" />099999999</a
+              >
+              <a href="mailto:cinexsupport.vn@cinex.com" class="contact-item"
+                ><img
+                  src="assets/icons/email.png"
+                  alt="Email"
+                />cinexsupport.vn@cinex.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
